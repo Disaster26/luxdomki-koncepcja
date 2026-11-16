@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>LUXDOMKI Krasnobród - całoroczne domki na Roztoczu z jacuzzi i sauną</title>
+<meta name="description" content="Całoroczny ośrodek LUXDOMKI w Krasnobrodzie: 4 drewniane domki dla 8 osób na wzgórzu z widokiem na Roztocze. Jacuzzi, sauna fińska, altana, plac zabaw, rowery. Tel. 604 994 346.">
+<meta name="theme-color" content="#B4462A">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-480.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/newsreader-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/manrope-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:"Newsreader";font-weight:400 600;font-display:swap;src:url(fonts/newsreader-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Newsreader";font-weight:400 600;font-display:swap;src:url(fonts/newsreader-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Manrope";font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Manrope";font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--dach:#B4462A;--dach2:#9A3920;--las:#1C3A24;--las2:#24492E;--t:#1A1F1B;--s:#4D5650;--g:#F2F4F3;--l:#DCE1DE;--hh:70px;--gut:clamp(16px,3.4vw,60px);--w:1320px;--serif:"Newsreader",Georgia,"Times New Roman",serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.62;color:var(--t);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-family:var(--serif);font-weight:500;line-height:1.06;letter-spacing:-.015em}
+h1{font-size:clamp(40px,4.6vw,82px)}
+h2{font-size:clamp(34px,3.9vw,60px)}
+h3{font-size:clamp(23px,1.9vw,28px);line-height:1.15}
+p{margin:0}
+.wrap{width:min(var(--w),100% - 2*var(--gut));margin-inline:auto}
+.btn{display:inline-flex;align-items:center;gap:14px;background:var(--dach);color:#fff;font-weight:700;font-size:17px;text-decoration:none;padding:17px 24px 17px 26px;border:0;border-radius:2px;line-height:1.2;cursor:pointer;font-family:inherit;transition:background .2s,transform .2s}
+.btn:hover{background:var(--dach2)}
+.btn:active{transform:translateY(1px)}
+.btn svg{width:22px;height:14px;flex:none}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+.top.sc{border-bottom-color:var(--l);box-shadow:0 8px 26px rgba(20,40,25,.07)}
+.top .wrap{height:100%;display:flex;align-items:center;gap:26px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--t)}
+.logo svg{width:44px;height:34px;flex:none;color:var(--dach)}
+.logo b{display:block;font-family:var(--serif);font-weight:600;font-size:25px;letter-spacing:.04em;line-height:1}
+.logo small{display:block;font-size:13px;font-weight:600;color:var(--s);line-height:1.2;margin-top:3px}
+.menu{display:flex;gap:2px;margin-left:auto}
+.menu a{text-decoration:none;font-weight:600;font-size:16px;padding:10px 14px;color:var(--t);position:relative}
+.menu a:after{content:"";position:absolute;left:14px;right:14px;bottom:4px;height:2px;background:var(--dach);transform:scaleX(0);transition:transform .25s}
+.menu a:hover:after,.menu a.on:after{transform:scaleX(1)}
+.top .tel{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:17px;color:#fff;background:var(--las);padding:12px 17px;border-radius:2px;white-space:nowrap}
+.top .tel:hover{background:var(--las2)}
+.top .tel svg{width:17px;height:17px}
+.burger{display:none;margin-left:auto;width:48px;height:48px;border:1px solid var(--l);background:#fff;border-radius:2px;cursor:pointer;padding:0;align-items:center;justify-content:center}
+.burger i{display:block;width:20px;height:2px;background:var(--t);position:relative;transition:background .2s}
+.burger i:before,.burger i:after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--t);transition:transform .25s}
+.burger i:before{top:-6px}.burger i:after{top:6px}
+.top.open .burger i{background:transparent}
+.top.open .burger i:before{transform:translateY(6px) rotate(45deg)}
+.top.open .burger i:after{transform:translateY(-6px) rotate(-45deg)}
+
+/* pierwszy ekran */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;align-items:flex-end;color:#fff;background:#3d5a2e;overflow:hidden}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:50% 34%}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,24,14,.74) 0%,rgba(12,24,14,.5) 36%,rgba(12,24,14,0) 66%),linear-gradient(0deg,rgba(12,24,14,.55) 0%,rgba(12,24,14,0) 46%)}
+.hero .wrap{position:relative;z-index:2;padding:48px 0 clamp(48px,7vh,96px)}
+.hero h1{max-width:12.4em;text-shadow:0 2px 24px rgba(0,0,0,.25)}
+.hero p{max-width:34em;font-size:clamp(17px,1.35vw,21px);line-height:1.55;margin-top:22px;color:#F3F6F2}
+.hero .btn{margin-top:32px}
+.hero .gora{display:block;width:clamp(150px,14vw,230px);height:auto;margin-bottom:22px;color:#fff;opacity:.95}
+
+/* sekcje */
+section{padding:clamp(72px,9vw,132px) 0}
+.szary{background:var(--g)}
+.horyzont{display:block;width:100%;height:26px;color:var(--dach)}
+.naglowek{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px 64px;align-items:end;margin-bottom:clamp(36px,4vw,56px)}
+.naglowek p{color:var(--s);font-size:18px;max-width:36em}
+.naglowek .horyzont{grid-column:1/-1;width:min(260px,60%);margin-bottom:-6px}
+
+/* domki */
+.uklad{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--l);border-bottom:1px solid var(--l);margin-bottom:clamp(36px,4vw,56px)}
+.uklad div{padding:26px 28px 28px 0}
+.uklad div+div{padding-left:28px;border-left:1px solid var(--l)}
+.uklad h3{margin-bottom:8px}
+.uklad p{color:var(--s)}
+.pas{position:relative}
+.pas .tor{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 3*16px)/4);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain;cursor:grab}
+.pas .tor::-webkit-scrollbar{display:none}
+.pas .tor.drag{cursor:grabbing;scroll-snap-type:none}
+.pas figure{margin:0;scroll-snap-align:start}
+.pas button.f{display:block;width:100%;padding:0;border:0;background:var(--g);cursor:zoom-in;aspect-ratio:4/3;overflow:hidden}
+.pas button.f img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.pas button.f:hover img{transform:scale(1.03)}
+.pas figcaption{font-size:15px;color:var(--s);margin-top:10px;font-weight:600}
+.strzalki{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
+.strzalki button{width:50px;height:50px;border:1px solid var(--l);background:#fff;border-radius:2px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--t)}
+.strzalki button:hover{border-color:var(--t)}
+.strzalki svg{width:20px;height:14px}
+.wyp{margin-top:clamp(48px,5vw,72px);display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:28px 64px}
+.wyp ul{list-style:none;margin:0;padding:0;columns:2;column-gap:48px}
+.wyp li{break-inside:avoid;padding:9px 0 9px 30px;position:relative;border-bottom:1px solid var(--l)}
+.wyp li:before{content:"";position:absolute;left:0;top:17px;width:16px;height:9px;background:no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 9'%3E%3Cpath d='M1 8 8 1.5 15 8' fill='none' stroke='%23B4462A' stroke-width='2'/%3E%3C/svg%3E")}
+
+/* teren */
+.teren{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-auto-rows:clamp(150px,15vw,250px);gap:14px}
+.teren .k{position:relative;overflow:hidden;margin:0;background:#ccd}
+.teren .k button{all:unset;display:block;position:absolute;inset:0;cursor:zoom-in}
+.teren .k img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.teren .k:hover img{transform:scale(1.03)}
+.teren .k figcaption{position:absolute;left:0;right:0;bottom:0;padding:44px 20px 16px;color:#fff;font-weight:700;font-size:17px;background:linear-gradient(0deg,rgba(10,20,12,.72),rgba(10,20,12,0));pointer-events:none}
+.teren .k figcaption span{display:block;font-weight:500;font-size:14.5px;opacity:.9}
+.k1{grid-column:span 7;grid-row:span 2}.k2{grid-column:span 5;grid-row:span 1}.k3{grid-column:span 5}
+.k4{grid-column:span 4}.k5{grid-column:span 4}.k6{grid-column:span 4}
+.teren-dop{display:flex;flex-wrap:wrap;gap:10px 36px;margin-top:28px;color:var(--s);font-size:16.5px}
+.teren-dop b{color:var(--t)}
+
+/* okolica */
+.las{background:var(--las);color:#EAF0EA;position:relative}
+.las h2{color:#fff}
+.las .naglowek p{color:#C7D3C9}
+.las .horyzont{color:#E2876A}
+.okolica{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px 72px;align-items:start}
+.szlak{list-style:none;margin:0;padding:0;position:relative;columns:2;column-gap:40px}
+.szlak li{display:grid;grid-template-columns:82px minmax(0,1fr);gap:14px;align-items:baseline;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.14);break-inside:avoid}
+.szlak b{font-family:var(--serif);font-weight:500;font-size:27px;color:#fff;line-height:1}
+.szlak b small{font-family:"Manrope",sans-serif;font-size:14px;font-weight:600;color:#AFC0B3;margin-left:3px}
+.szlak span{color:#DCE5DD;font-size:16px;line-height:1.45}
+.atrakcje h3{color:#fff;margin-bottom:14px}
+.atrakcje p{color:#C7D3C9}
+.atrakcje figure{margin:0 0 26px;aspect-ratio:3/2;overflow:hidden}
+.atrakcje figure img{width:100%;height:100%;object-fit:cover}
+
+/* zasady */
+.zasady{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px 72px;align-items:start}
+.zasady ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--l)}
+.zasady li{display:grid;grid-template-columns:minmax(0,190px) minmax(0,1fr);gap:8px 24px;padding:20px 0;border-bottom:1px solid var(--l)}
+.zasady li b{font-family:var(--serif);font-weight:500;font-size:22px;line-height:1.2}
+.zasady li span{color:var(--s)}
+
+/* kontakt */
+.kontakt{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:40px 72px;align-items:start}
+.dane{font-size:17.5px}
+.dane .os{font-family:var(--serif);font-size:26px;margin:22px 0 4px}
+.dane a{text-decoration:none}
+.dane .nr{display:block;font-size:24px;font-weight:800;margin-top:6px}
+.dane .nr:hover,.dane .ml:hover{color:var(--dach)}
+.dane .ml{display:block;margin-top:14px;font-weight:600}
+.dane address{font-style:normal;margin-top:18px;color:var(--s)}
+form{background:#fff;padding:clamp(22px,3vw,40px);border:1px solid var(--l)}
+.pola{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.pola .cala{grid-column:1/-1}
+label{display:block;font-size:14.5px;font-weight:700;margin-bottom:6px}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1px solid #C9D0CB;border-radius:2px;background:#fff;color:var(--t)}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--dach);outline-offset:0;border-color:var(--dach)}
+textarea{min-height:110px;resize:vertical}
+form .btn{margin-top:20px}
+.info-form{margin-top:14px;font-size:14.5px;color:var(--s)}
+.mapa{margin-top:clamp(40px,5vw,64px);height:clamp(280px,32vw,420px);background:#E4E9E5;position:relative}
+.mapa iframe{border:0;width:100%;height:100%;display:block}
+.mapa .zas{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:20px;color:var(--s)}
+.mapa .zas a{font-weight:700;color:var(--t)}
+
+/* stopka */
+.stopka{background:#fff;border-top:1px solid var(--l);padding:34px 0 30px;font-size:15px;color:var(--s)}
+.stopka .wrap{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr);gap:22px 40px;align-items:start}
+.stopka b{color:var(--t)}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:var(--dach)}
+.stopka .dol{grid-column:1/-1;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;padding-top:18px;border-top:1px solid var(--l);font-size:14px}
+
+/* pasek mobilny, lightbox, cookies */
+.mob{display:none}
+.lb{position:fixed;inset:0;z-index:90;background:rgba(10,14,11,.94);display:none;align-items:center;justify-content:center;padding:56px 12px}
+.lb.on{display:flex}
+.lb img{max-width:100%;max-height:100%;object-fit:contain}
+.lb button{position:absolute;background:rgba(255,255,255,.12);color:#fff;border:0;width:52px;height:52px;border-radius:2px;cursor:pointer;font-size:26px;line-height:1}
+.lb .x{top:10px;right:10px}.lb .p{left:10px;top:50%;margin-top:-26px}.lb .n{right:10px;top:50%;margin-top:-26px}
+.cookies{position:fixed;left:12px;bottom:12px;z-index:80;max-width:min(430px,calc(100% - 24px));background:#fff;border:1px solid var(--l);box-shadow:0 10px 30px rgba(0,0,0,.12);padding:14px 16px;font-size:14px;line-height:1.45;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.cookies[hidden]{display:none}
+.cookies p{flex:1 1 220px}
+.cookies button{font:inherit;font-weight:700;font-size:14px;padding:9px 13px;border-radius:2px;cursor:pointer;border:1px solid var(--t);background:#fff}
+.cookies button.ok{background:var(--las);color:#fff;border-color:var(--las)}
+
+@media (max-width:1100px){
+ .menu a{padding:10px 9px;font-size:15px}.menu a:after{left:9px;right:9px}
+ .pas .tor{grid-auto-columns:calc((100% - 2*16px)/3)}
+}
+@media (max-width:960px){
+ :root{--hh:64px}
+ .menu{display:none;position:absolute;top:var(--hh);left:0;right:0;background:#fff;flex-direction:column;padding:8px var(--gut) 22px;border-bottom:1px solid var(--l);box-shadow:0 18px 30px rgba(0,0,0,.08)}
+ .top.open .menu{display:flex}
+ .menu a{font-size:19px;padding:14px 0;border-bottom:1px solid var(--g)}
+ .menu a:after{left:0;right:auto;width:28px;bottom:10px}
+ .burger{display:inline-flex;margin-left:8px}
+ .top .tel{margin-left:auto;padding:11px 13px}
+ .naglowek,.okolica,.zasady,.kontakt,.wyp{grid-template-columns:minmax(0,1fr)}
+ .uklad{grid-template-columns:minmax(0,1fr)}
+ .uklad div,.uklad div+div{padding:20px 0;border-left:0}
+ .uklad div+div{border-top:1px solid var(--l)}
+ .stopka .wrap{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+ .stopka .wrap>div:first-child{grid-column:1/-1}
+}
+@media (max-width:760px){
+ body{font-size:16.5px}
+ .top .tel span{display:none}
+ .top .tel{width:48px;height:48px;justify-content:center;padding:0}
+ .logo b{font-size:22px}.logo small{font-size:12px}.logo svg{width:38px;height:30px}
+ .hero{min-height:calc(100svh - var(--hh))}
+ .hero picture img{object-position:50% 30%}
+ .hero:after{background:linear-gradient(0deg,rgba(12,24,14,.86) 0%,rgba(12,24,14,.6) 36%,rgba(12,24,14,0) 62%)}
+ .hero .wrap{padding:40px 0 34px}
+ .hero h1{font-size:clamp(34px,10vw,46px)}
+ .hero p{font-size:16.5px;margin-top:14px}
+ .hero .btn{margin-top:26px;width:100%;justify-content:space-between}
+ .hero .gora{width:120px;margin-bottom:14px}
+ .pas .tor{grid-auto-columns:82%;gap:12px}
+ .wyp ul{columns:1}
+ .teren{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:150px;gap:10px}
+ .k1{grid-column:span 2;grid-row:span 2}.k2,.k3,.k4,.k5,.k6{grid-column:span 1;grid-row:span 1}
+ .k6{grid-column:span 2}
+ .teren .k figcaption{padding:34px 12px 10px;font-size:15px}
+ .teren .k figcaption span{display:none}
+ .szlak{columns:1}
+ .zasady li{grid-template-columns:minmax(0,1fr)}
+ .pola{grid-template-columns:minmax(0,1fr)}
+ .mob{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1.4fr;transform:translateY(110%);transition:transform .3s}
+ .mob.widac{transform:none}
+ .mob a{display:flex;align-items:center;justify-content:center;gap:8px;padding:16px 10px;font-weight:800;text-decoration:none;color:#fff;background:var(--las)}
+ .mob a+a{background:var(--dach)}
+ .stopka{padding-bottom:84px}
+ .cookies{bottom:10px;left:10px}
+}
+@media (max-height:520px) and (min-width:761px){.hero h1{font-size:48px}}
+@media (max-width:380px){.logo b{font-size:17px!important}.logo{gap:9px}.top .wrap{gap:12px}}
+.top .tel,.burger{flex:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="znak" viewBox="0 0 44 34"><path d="M4 21 22 4l18 17" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="miter"/><path d="M30 11.6V6h4.4v9.8" fill="none" stroke="currentColor" stroke-width="3"/><path d="M1 30.5c6-3.4 10.5-3.9 15-2.4s8.6 2.3 13.5.4 9.6-2.1 13.5-.2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+ <symbol id="hor" viewBox="0 0 520 26" preserveAspectRatio="none"><path d="M0 22c40-6 70-9 110-6s70 6 104 1c22-3 34-6 46-6l14-11 14 11c18 0 42 4 74 6 46 3 80-6 120-6 16 0 28 1 38 2" fill="none" stroke="currentColor" stroke-width="1.8" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></symbol>
+ <symbol id="str" viewBox="0 0 22 14"><path d="M0 7h20M14 1l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+</svg>
+
+<header class="top" id="top">
+ <div class="wrap">
+  <a class="logo" href="#"><svg><use href="#znak"/></svg><span><b>LUXDOMKI</b><small>Krasnobród, Roztocze</small></span></a>
+  <nav class="menu" id="menu" aria-label="Menu główne">
+   <a href="#domki">Domki</a><a href="#teren">Na miejscu</a><a href="#okolica">Okolica</a><a href="#zasady">Zasady</a><a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="tel" href="tel:+48604994346" aria-label="Zadzwoń 604 994 346"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg><span>604 994 346</span></a>
+  <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><i></i></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" style="padding:0">
+ <picture>
+  <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w" sizes="100vw">
+  <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" sizes="100vw" width="1600" height="1138" alt="Drewniany domek LUXDOMKI z czerwonym dachem i tarasem, w tle zieleń Roztocza" fetchpriority="high" decoding="async">
+ </picture>
+ <div class="wrap">
+  <svg class="gora" viewBox="0 0 520 26" preserveAspectRatio="none" aria-hidden="true" style="height:22px"><use href="#hor"/></svg>
+  <h1>Drewniane domki na wzgórzu z widokiem na Roztocze</h1>
+  <p>Całoroczny ośrodek w Krasnobrodzie: cztery domki dla ośmiu osób, jacuzzi, sauna fińska i 70 arów zieleni blisko Roztoczańskiego Parku Narodowego.</p>
+  <a class="btn" href="#kontakt">Zapytaj o wolny termin <svg><use href="#str"/></svg></a>
+ </div>
+</section>
+
+<section id="domki">
+ <div class="wrap">
+  <div class="naglowek">
+   <svg class="horyzont" aria-hidden="true"><use href="#hor"/></svg>
+   <h2>Domek dla całej rodziny, na dwóch poziomach</h2>
+   <p>Każdy z czterech domków mieści do 8 osób. Drewno w środku, kominek z płaszczem wodnym i duży taras z grillem sprawiają, że przyjeżdża się tu tak samo chętnie w lipcu, jak w styczniu.</p>
+  </div>
+  <div class="uklad">
+   <div><h3>Parter</h3><p>Salon z dwoma rozkładanymi miejscami do spania (duża wersalka i narożnik), kuchnia i łazienka z prysznicem z deszczownicą.</p></div>
+   <div><h3>Piętro</h3><p>Dwa oddzielne pokoje, w każdym dwa łóżka z możliwością dostawki. Na górę prowadzą szerokie, bezpieczne schody.</p></div>
+   <div><h3>Taras</h3><p>Duży, zadaszony taras z kominkiem grillowym i widokiem na panoramę Roztocza.</p></div>
+  </div>
+  <div class="pas" data-pas>
+   <div class="tor" tabindex="0" aria-label="Zdjęcia wnętrz domku">
+    <figure><button class="f" data-g="domek"><img src="img/salon-560.webp" srcset="img/salon-560.webp 560w, img/salon-720.webp 720w, img/salon-960.webp 960w" sizes="(max-width:760px) 82vw, 25vw" width="560" height="420" loading="lazy" decoding="async" alt="Salon z narożnikiem i telewizorem"></button><figcaption>Salon</figcaption></figure>
+    <figure><button class="f" data-g="domek"><img src="img/kuchnia-560.webp" srcset="img/kuchnia-560.webp 560w, img/kuchnia-720.webp 720w, img/kuchnia-960.webp 960w" sizes="(max-width:760px) 82vw, 25vw" width="560" height="420" loading="lazy" decoding="async" alt="Kuchnia z lodówką, piekarnikiem i stołem"></button><figcaption>Kuchnia</figcaption></figure>
+    <figure><button class="f" data-g="domek"><img src="img/taras-560.webp" srcset="img/taras-560.webp 560w, img/taras-720.webp 720w, img/taras-960.webp 960w" sizes="(max-width:760px) 82vw, 25vw" width="560" height="420" loading="lazy" decoding="async" alt="Zadaszony taras z ławami i kominkiem grillowym"></button><figcaption>Taras z kominkiem grillowym</figcaption></figure>
+    <figure><button class="f" data-g="domek"><img src="img/lazienka-560.webp" srcset="img/lazienka-560.webp 560w, img/lazienka-720.webp 720w, img/lazienka-960.webp 960w" sizes="(max-width:760px) 82vw, 25vw" width="560" height="747" loading="lazy" decoding="async" alt="Łazienka z kabiną prysznicową"></button><figcaption>Łazienka z deszczownicą</figcaption></figure>
+    <figure><button class="f" data-g="domek"><img src="img/kuchnia2-560.webp" srcset="img/kuchnia2-560.webp 560w, img/kuchnia2-720.webp 720w, img/kuchnia2-960.webp 960w" sizes="(max-width:760px) 82vw, 25vw" width="560" height="420" loading="lazy" decoding="async" alt="Kuchnia w drugim domku"></button><figcaption>Kuchnia w drugim domku</figcaption></figure>
+    <figure><button class="f" data-g="domek"><img src="img/salon2-560.webp" srcset="img/salon2-560.webp 560w, img/salon2-720.webp 720w, img/salon2-960.webp 960w" sizes="(max-width:760px) 82vw, 25vw" width="560" height="420" loading="lazy" decoding="async" alt="Salon z kominkiem"></button><figcaption>Salon z kominkiem</figcaption></figure>
+    <figure><button class="f" data-g="domek"><img src="img/schody-560.webp" srcset="img/schody-560.webp 560w, img/schody-720.webp 720w, img/schody-960.webp 960w" sizes="(max-width:760px) 82vw, 25vw" width="560" height="747" loading="lazy" decoding="async" alt="Drewniane schody na piętro"></button><figcaption>Schody na piętro</figcaption></figure>
+    <figure><button class="f" data-g="domek"><img src="img/front-560.webp" srcset="img/front-560.webp 560w, img/front-720.webp 720w, img/front-960.webp 960w" sizes="(max-width:760px) 82vw, 25vw" width="560" height="420" loading="lazy" decoding="async" alt="Domek od frontu z kwiatami na balustradzie"></button><figcaption>Domek od frontu</figcaption></figure>
+   </div>
+   <div class="strzalki"><button data-k="-1" aria-label="Poprzednie zdjęcia"><svg style="transform:scaleX(-1)"><use href="#str"/></svg></button><button data-k="1" aria-label="Następne zdjęcia"><svg><use href="#str"/></svg></button></div>
+  </div>
+  <div class="wyp">
+   <h3>W każdym domku</h3>
+   <ul>
+    <li>kuchenka z piekarnikiem i mikrofala</li><li>czajnik, garnki, patelnia, talerze, sztućce</li><li>telewizor 55-58 cali z soundbarem</li><li>kominek z płaszczem wodnym</li><li>duży bojler, prysznic z deszczownicą</li><li>ręczniki i suszarka do włosów</li><li>żelazko, deska do prasowania, odkurzacz</li><li>duży taras z kominkiem grillowym</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="szary" id="teren">
+ <div class="wrap">
+  <div class="naglowek">
+   <svg class="horyzont" aria-hidden="true"><use href="#hor"/></svg>
+   <h2>Wszystko na miejscu, na jednej działce</h2>
+   <p>Domki stoją na lekkim wzgórzu, na działce 70 arów. Dzieci mają plac zabaw i trampolinę, dorośli jacuzzi, saunę i altanę na wspólne wieczory.</p>
+  </div>
+  <div class="teren">
+   <figure class="k k1"><button data-g="teren" aria-label="Powiększ: jacuzzi"></button><img src="img/jacuzzi-960.webp" srcset="img/jacuzzi-560.webp 560w, img/jacuzzi-720.webp 720w, img/jacuzzi-960.webp 960w" sizes="(max-width:760px) 100vw, 56vw" width="933" height="700" loading="lazy" decoding="async" alt="Jacuzzi ogrodowe podświetlone wieczorem"><figcaption>Jacuzzi<span>latem czynne od 12 do 22</span></figcaption></figure>
+   <figure class="k k2"><button data-g="teren" aria-label="Powiększ: altana"></button><img src="img/altana-960.webp" srcset="img/altana-560.webp 560w, img/altana-720.webp 720w, img/altana-960.webp 960w" sizes="(max-width:760px) 50vw, 40vw" width="960" height="720" loading="lazy" decoding="async" alt="Altana z drewnianymi stołami i ławami"><figcaption>Altana<span>stoły dla całej grupy</span></figcaption></figure>
+   <figure class="k k3"><button data-g="teren" aria-label="Powiększ: leżaki"></button><img src="img/lezaki-960.webp" srcset="img/lezaki-560.webp 560w, img/lezaki-720.webp 720w, img/lezaki-960.webp 960w" sizes="(max-width:760px) 50vw, 40vw" width="960" height="720" loading="lazy" decoding="async" alt="Leżaki na trawie między sosnami"><figcaption>Leżaki i hamak<span>miejsca do odpoczynku</span></figcaption></figure>
+   <figure class="k k4"><button data-g="teren" aria-label="Powiększ: plac zabaw"></button><img src="img/plac-960.webp" srcset="img/plac-560.webp 560w, img/plac-720.webp 720w, img/plac-960.webp 960w" sizes="(max-width:760px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async" alt="Plac zabaw ze zjeżdżalnią przy domku"><figcaption>Plac zabaw<span>tuż przy domkach</span></figcaption></figure>
+   <figure class="k k5"><button data-g="teren" aria-label="Powiększ: trampolina"></button><img src="img/trampolina-960.webp" srcset="img/trampolina-560.webp 560w, img/trampolina-720.webp 720w, img/trampolina-960.webp 960w" sizes="(max-width:760px) 50vw, 33vw" width="960" height="720" loading="lazy" decoding="async" alt="Trampolina na trawie, nad nią tęcza"><figcaption>Trampolina 5 m<span>z siatką ochronną</span></figcaption></figure>
+   <figure class="k k6"><button data-g="teren" aria-label="Powiększ: rowery"></button><img src="img/rowery-960.webp" srcset="img/rowery-560.webp 560w, img/rowery-720.webp 720w, img/rowery-960.webp 960w" sizes="(max-width:760px) 100vw, 33vw" width="960" height="720" loading="lazy" decoding="async" alt="Rowery dla gości pod wiatą"><figcaption>Rowery dla gości<span>do dyspozycji gości</span></figcaption></figure>
+  </div>
+  <div class="teren-dop"><span><b>Sauna fińska</b> czynna od 18 do 22</span><span><b>Ognisko</b> z rusztem</span><span><b>Monitoring</b> całodobowy</span></div>
+ </div>
+</section>
+
+<section class="las" id="okolica">
+ <div class="wrap">
+  <div class="naglowek">
+   <svg class="horyzont" aria-hidden="true"><use href="#hor"/></svg>
+   <h2>Od stadniny za płotem po Zamość</h2>
+   <p>Ośrodek leży blisko Roztoczańskiego Parku Narodowego, szlaków turystycznych i rezerwatów przyrody. Do centrum Krasnobrodu jest nieco ponad kilometr.</p>
+  </div>
+  <div class="okolica">
+   <ul class="szlak">
+    <li><b>0<small>km</small></b><span>stadnina koni Bretania</span></li>
+    <li><b>1,2<small>km</small></b><span>centrum Krasnobrodu</span></li>
+    <li><b>1,3<small>km</small></b><span>zalew kąpielowy i wędkarski</span></li>
+    <li><b>1,5<small>km</small></b><span>park linowy</span></li>
+    <li><b>1,5<small>km</small></b><span>wyspa z basenami krytymi</span></li>
+    <li><b>3<small>km</small></b><span>kapliczka na wodzie</span></li>
+    <li><b>3<small>km</small></b><span>winnica Marysieńka</span></li>
+    <li><b>5<small>km</small></b><span>wyciąg narciarski i zalew w Jacni</span></li>
+    <li><b>5<small>km</small></b><span>bezpłatne tężnie</span></li>
+    <li><b>15<small>km</small></b><span>wyciąg narciarski w Szopowym</span></li>
+    <li><b>18<small>km</small></b><span>zalew w Józefowie</span></li>
+    <li><b>18<small>km</small></b><span>Tomaszów Lubelski</span></li>
+    <li><b>25<small>km</small></b><span>Zwierzyniec</span></li>
+    <li><b>25<small>km</small></b><span>Zamość, wpisany na listę UNESCO</span></li>
+   </ul>
+   <div class="atrakcje">
+    <figure><img src="img/noc-960.webp" srcset="img/noc-560.webp 560w, img/noc-720.webp 720w, img/noc-960.webp 960w" sizes="(max-width:960px) 100vw, 38vw" width="960" height="720" loading="lazy" decoding="async" alt="Domki wieczorem, podświetlone tarasy"></figure>
+    <h3>Na miejscu zorganizujemy</h3>
+    <p>Jazdę konną i hipoterapię w pobliskiej stadninie, kulig zimą albo zielony kulig latem, spływ kajakowy, paintball, wycieczki z przewodnikiem, także do Lwowa, catering, pieczonego prosiaka i degustację w winnicy Marysieńka.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="zasady">
+ <div class="wrap zasady">
+  <div>
+   <svg class="horyzont" aria-hidden="true" style="width:min(260px,60%);margin-bottom:22px"><use href="#hor"/></svg>
+   <h2>Kilka zasad, dzięki którym jest tu spokojnie</h2>
+  </div>
+  <ul>
+   <li><b>Goście</b><span>Zapraszamy rodziny i osoby dorosłe. Nie wynajmujemy domków samej młodzieży.</span></li>
+   <li><b>Jacuzzi</b><span>Czynne w miesiącach letnich od 12:00 do 22:00.</span></li>
+   <li><b>Sauna fińska</b><span>Czynna od 18:00 do 22:00, prosimy o wcześniejszą rezerwację.</span></li>
+   <li><b>Bezpieczeństwo</b><span>Obiekt jest monitorowany całodobowo.</span></li>
+  </ul>
+ </div>
+</section>
+
+<section class="szary" id="kontakt">
+ <div class="wrap">
+  <div class="kontakt">
+   <div class="dane">
+    <svg class="horyzont" aria-hidden="true" style="width:min(260px,60%);margin-bottom:22px"><use href="#hor"/></svg>
+    <h2>Zarezerwuj termin</h2>
+    <p style="color:var(--s);margin-top:16px">Napisz, kiedy chcesz przyjechać i ile osób będzie. Odpowiemy, który domek jest wolny.</p>
+    <p class="os">Sebastian Nowosad</p>
+    <a class="nr" href="tel:+48604994346">604 994 346</a>
+    <a class="nr" href="tel:+48602523390">602 523 390</a>
+    <a class="ml" href="mailto:suntourist@op.pl">suntourist@op.pl</a>
+    <address>Nowa Wieś 72a<br>22-440 Krasnobród</address>
+   </div>
+   <form id="form" novalidate>
+    <div class="pola">
+     <div><label for="f1">Przyjazd</label><input id="f1" type="date"></div>
+     <div><label for="f2">Wyjazd</label><input id="f2" type="date"></div>
+     <div><label for="f3">Liczba osób</label><select id="f3"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>więcej niż 8</option></select></div>
+     <div><label for="f4">Imię</label><input id="f4" autocomplete="given-name"></div>
+     <div class="cala"><label for="f5">Telefon lub e-mail</label><input id="f5" autocomplete="tel"></div>
+     <div class="cala"><label for="f6">Wiadomość (opcjonalnie)</label><textarea id="f6" placeholder="Np. przyjedziemy z dwójką dzieci"></textarea></div>
+    </div>
+    <button class="btn" type="submit">Wyślij zapytanie <svg><use href="#str"/></svg></button>
+    <p class="info-form" id="finfo" role="status">To podgląd strony, formularz niczego jeszcze nie wysyła.</p>
+   </form>
+  </div>
+  <div class="mapa" id="mapa" data-src="https://maps.google.com/maps?q=Nowa+Wie%C5%9B+72a,+22-440+Krasnobr%C3%B3d&amp;z=14&amp;output=embed">
+   <div class="zas"><p>Mapa Google pojawi się po akceptacji plików cookies.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Nowa+Wie%C5%9B+72a+22-440+Krasnobr%C3%B3d" target="_blank" rel="noopener">Otwórz dojazd w Mapach Google</a></div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="stopka">
+ <div class="wrap">
+  <div><b>LUXDOMKI</b> - całoroczny ośrodek wypoczynkowy w Krasnobrodzie na Roztoczu.<br>Nowa Wieś 72a, 22-440 Krasnobród</div>
+  <div><a href="tel:+48604994346">604 994 346</a><br><a href="tel:+48602523390">602 523 390</a><br><a href="mailto:suntourist@op.pl">suntourist@op.pl</a></div>
+  <div><a href="#domki">Domki</a><br><a href="#teren">Na miejscu</a><br><a href="#okolica">Okolica</a><br><a href="#kontakt">Kontakt</a></div>
+  <div class="dol">
+   <span>© 2026 LUXDOMKI. Zdjęcia: LUXDOMKI. Polityka prywatności</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=luxdomki.eu&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+
+<div class="mob" id="mob"><a href="tel:+48604994346">Zadzwoń</a><a href="#kontakt">Zapytaj o termin</a></div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie"><img alt=""><button class="x" aria-label="Zamknij">×</button><button class="p" aria-label="Poprzednie">‹</button><button class="n" aria-label="Następne">›</button></div>
+<div class="cookies" id="cookies" hidden><p>Używamy plików cookies tylko do wyświetlenia mapy Google.</p><button class="ok" data-c="1">Akceptuję</button><button data-c="0">Tylko niezbędne</button></div>
+<script>try{if(!localStorage.getItem('lux-c'))document.getElementById('cookies').hidden=false}catch(e){document.getElementById('cookies').hidden=false}</script>
+<script src="app.js" defer></script>
+</body>
+</html>
